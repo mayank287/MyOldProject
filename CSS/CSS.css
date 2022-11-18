@@ -1,0 +1,1036 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+   
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+   list-style-type: none;
+
+}
+nav ul  li{
+display: inline-block;
+margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    color: #555;
+}
+
+.Container{
+    max-width: 1300px;
+   
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px ;
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2{
+flex-basis: 50%;
+min-width: 300px;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0  ;
+    
+}
+
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px;
+    
+}
+.btn{
+    display: inline-block;
+    background:#ff523b;
+    padding:8px 30px;
+    margin: 30px  ;
+    border-radius: 30px;
+    color: white;
+transition: background 0.2s;
+/* transition: smooth; */
+}
+
+.header{
+    background: radial-gradient(white ,#ffd6d6 );
+   
+}
+.header .row{
+margin: 70px;
+}
+.cart{
+   height: 25px;
+   width: 30px;
+   margin-left: 14px;
+   margin-bottom: 1px;
+   margin-top: 15px;
+}
+
+.btn:hover{
+    background: #563434;
+}
+.categories{
+    margin: 70px 0;
+
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left:25px ;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.2s;
+
+}
+
+.col-4 img{
+    width: 100%;
+    transition: width 0.5s;
+    border: 1px solid black
+    ;
+
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px ;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::before{
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius:5px ;
+    position:absolute;
+    bottom: 0 ;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h4{
+    color: #555;
+    font-weight:normal ;
+}
+.col-4 p{
+    font-size: 14px;
+
+}
+.col-4:hover{
+   transform: translatey(-5px);
+
+
+}
+#menuitems a{
+    transition: color 0.5s;
+}
+
+#menuitems a:hover{
+    color: red;
+}
+#menuitems hr{
+    width: 0px;
+
+}
+
+#menuitems hr:hover{
+    width: 100%;
+}
+/* Contact us page */
+.header-aboutus{
+    height: 200x;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.aboutus-information{
+    flex-basis: 50%;
+    min-width: 300px;
+    }
+ 
+    .aboutsus-row{
+        display: flex;
+        align-items: center;
+    height: 200x;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);;
+        
+    }
+    
+    .aboutus-information{
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+    .map-aboutus{
+        margin-right: 70px;
+        margin-bottom: 20px;
+    }
+   
+    /*----------------- Aboutus ---------------------------------------------*/
+    .header-contactus{
+        height: 100px;
+        max-height: 350px;
+    }
+    .contactus-information{
+        margin-left: 500px;
+        margin-bottom: 200px;
+        margin-top: 100px;
+    }
+    .contactus-information p{
+        width: 500px;
+    }
+    /* ---------------------tsr -------------------------*/
+  
+    .t-r-information{
+        margin-left: 00px;
+        height: 350px;
+        align-items: center;
+       
+      
+              
+    }
+    .t-r-information h1{
+        margin-top: 100px;
+        font-size: 50px;
+        margin-left: 400px;
+        
+        
+    }
+    .t-r-information ul {
+        margin-left: 400px;
+        margin-top: 10px;
+        width: 400px;
+
+    }
+    .t-r-information ul li{
+        font-size: 25px;
+        line-height: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    .header-t-r{
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+        background-repeat: no-repeat;        opacity: 0.5;
+        opacity: 1;
+    }
+  .ons{
+      display: none;
+  }
+
+
+    
+ .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px;
+    }
+    .map-aboutus{
+        margin-left: 200px;
+        margin-top: 20px;
+        height: 450px;
+        width: 900px;
+    }
+    .aboutus-map{
+        width: 1200px;
+    }
+
+/* ---------------offer ---------------------------------------------- */
+.offer{
+    background: radial-gradient(#fff , #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.offer-img{
+    padding: 50px;
+    
+}
+small{
+    color: #555;
+
+}
+/* brands */
+.brands{
+    margin: 100px auto;
+
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+   width: 100%; 
+   cursor: pointer;
+   filter: grayscale(100%);
+
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/* footer */
+.footer{
+    background: #103263 ;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 28px;
+    margin-bottom: 0px;
+    max-height: 290px;
+    height: 290px;
+    display: flex;
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1 ,footer-col-2 , footer-col-3,footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+
+
+}
+footer-col-1{
+    flex-basis: 30%;
+}
+footer-col-2{
+    text-align: center;
+    flex: 1;
+}
+
+footer-col-2 img{
+width: 1080px;
+margin-bottom: 20px;
+}
+footer-col-3,footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.copy-main{
+    background: black;
+   height: 45px;
+
+
+
+}
+
+.footer-logos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.footer-logos img{
+    display: flex ;
+    height: 50px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition: filter 0.3s;
+    filter: grayscale(100%);
+
+    
+
+}
+.footer-logos img:hover{
+    filter: grayscale(0);
+
+}
+.footer-logo-heading{
+   align-items: center;
+   margin-left: 150px;
+   margin-bottom: 10px;
+   line-height: 10px;
+   font-weight: px;
+   font-size: 20px;
+   margin-right: 500px;
+
+}
+
+.copy{
+    text-align: center;
+    margin-top: 10px;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+
+}
+
+
+
+
+/* all products */
+.row-2{
+    justify-content: space-between;
+    margin: 50px 50px;
+
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+    background-color: #ff523b;
+    border-radius: 40px;
+    color: white;
+    
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left:10px ;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+
+
+}
+.page-btn span:hover{
+    background:linear-gradient(red,pink);
+    color: white;
+    
+}
+
+
+.btn2{
+    margin:0 auto 80px ;
+}
+
+.btn2 span{
+  display: inline-block;
+    
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.btn2 span:hover{
+background: linear-gradient(red,pink);
+color: white;
+
+
+}
+
+.map{
+    margin-left: 30px;
+    margin-top: 12px;
+   
+    
+}
+
+.iframe p{
+ margin-left: 35px;
+line-height: 2px;
+margin-bottom:10px;
+color: white;
+font-size: 20px;
+
+
+
+}
+.footer-main-logo{
+    margin-left: 200px;
+}
+
+
+.single-products{
+    margin-top: 80px;
+
+
+}
+.single-products .col2 img{
+    padding: 0;
+
+}
+.single-products .col-2{
+    padding: 20px;
+
+}
+.single-products h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.single-products select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.single-products input{
+    width: 50px;
+    height: 40px ;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b ;
+
+}
+input:focus{
+    outline: none;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-products.row{
+    text-align: center;
+}
+.single-products .col-2{
+    padding:  20px  0;
+}
+.single-products h1{
+    font-size: 26px;
+    line-height: 22px ;
+}
+/* Footer */
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    background: brown;
+
+
+
+}
+.main-content{
+    display:flex ;
+    color: white;
+    padding-top: 25px;
+
+    justify-content: space-evenly;
+
+}
+.main-content p{color: white;}
+.main-content a{
+    color: white;
+    flex-direction: column;
+
+    
+}
+
+
+.social{display: flex;
+  
+}
+
+
+
+.social img{
+    height: 50px;
+    width: 30px;
+margin-left: 5px;
+margin-top: 20px;
+transition: width 0.5s;
+
+
+
+}
+.social img:hover{
+width:40px;
+}
+.center-right-box ul li {
+    margin-top: 20px;
+   
+}
+.center-right-box ul li a{
+    transition: color 0.2s;
+}
+.center-right-box ul li a:hover{
+color: lightseagreen;
+}
+
+.last-map{
+    margin-left: 20px;
+}
+.last-map h2{
+    margin-bottom: 30px;
+  
+    
+}
+
+
+.place{
+    margin-top: 10px;
+
+}
+.email{
+margin-top: 50px;
+}
+.phone{
+    margin-top: 50px;
+}
+.copyright{
+    background: #ff523b;
+    text-align: center;
+    font-size: 10px;
+}
+.aboutus-para{
+    margin-top: 10px;
+}
+.hr{
+   margin-top: 5px ;
+   width: 50%;
+
+}
+
+
+
+
+/* ------------Single products*/
+@media only screen and (max-width: 1300px){
+    .t-r-information{
+       margin-right: 200px;
+    }
+}
+@media only screen and (max-width: 950px){
+    .t-r-information h1{
+       
+     
+       margin-top: 0px;
+       margin-left: 250px
+       
+    }
+    .t-r-information ul{
+    
+        margin-top: 0px;
+        margin-left: 250px;
+     }
+}
+@media only screen and (max-width: 730px){
+    .t-r-information h1{
+       margin-left: 250px;
+     
+   
+        
+     }
+     .t-r-information ul{
+        margin-left: 250px;
+       
+      }
+    }
+    @media only screen and (max-width: 716px){
+        .t-r-information h1{
+           margin-left: 200px;
+         
+       
+            
+         }
+         .t-r-information ul{
+            margin-left: 200px;
+           
+          }
+        }
+          
+    @media only screen and (max-width: 670px){
+        .t-r-information h1{
+           
+         margin-left: 150px;
+
+            
+         }
+         .t-r-information ul{
+         
+             margin-left: 150px;
+          }
+        }
+        @media only screen and (max-width: 614px){
+            .t-r-information h1{
+               
+             margin-left: 100px;
+             
+    
+                
+             }
+             .t-r-information ul{
+             
+                 margin-left: 100px;
+                 
+              }
+            }
+            @media only screen and (max-width: 566px){
+                .t-r-information h1{
+                   margin-left: 70px;
+                 
+               
+                    
+                 }
+                 .t-r-information ul{
+                    margin-left: 70px;
+                   
+                  }
+                }
+                @media only screen and (max-width: 538px){
+                     .header-t-r{
+                         width: 100%;
+
+                    }
+                    .t-r-information h1{
+                       width: 100%;
+                     
+                   
+                        
+                     }
+                     .t-r-information ul{
+                        margin-left: 70px;
+                       
+                      }
+                    }
+                    @media only screen and (max-width: 465px){
+            
+            
+                    .t-r-information{
+                        width:100%;
+                    }
+                        .t-r-information h1{
+                           width: 100%;
+                         
+                       
+                            
+                         }
+                         .t-r-information ul{
+                            margin-left: 70px;
+                           
+                          }
+                        
+                        }
+                        
+                        
+                        @media only screen and (max-width: 407px){
+                            .header-t-r{
+                                width: 100%;
+       
+                           }
+            
+            
+                            .t-r-information{
+                                width:100%;
+                            }
+                            .t-r-information span{
+                                color: red;
+                               
+                            }
+                                .t-r-information h1{
+                                   width: 100%;
+                                 margin-left: 40px;
+                               
+                                    
+                                 }
+                                 .t-r-information ul{
+                                    margin-left: 40px;
+                                   
+                                  }
+                                }
+                                @media only screen and (max-width: 367px){
+            
+            
+                                    .t-r-information{
+                                        width:100%;
+                                    }
+                                    .t-r-information span{
+                                        color: red;
+                                       
+                                    }
+                                        .t-r-information h1{
+                                           width: 100%;
+                                         margin-left: 0px;
+                                       
+                                            
+                                         }
+                                         .t-r-information ul{
+                                            margin-left: 0px;
+                                           
+                                          }
+                                        }
+                                        @media only screen and (max-width: 320px){
+            
+            
+                                            .t-r-information{
+                                                width:100%;
+                                            }
+                                            .t-r-information span{
+                                                color: red;
+                                               
+                                            }
+                                                .t-r-information h1{
+                                                   width: 100%;
+                                                 margin-left: -20px;
+                                               
+                                                    
+                                                 }
+                                                 .t-r-information ul{
+                                                    margin-left: -20px;
+                                                   
+                                                  }
+                                                }
+                                                @media only screen and (max-width: 298px){
+            
+            
+                                                    .t-r-information{
+                                                        width:100%;
+                                                    }
+                                                    .header-t-r{
+                                                        height: 600px;
+                                                    }
+                                                    .t-r-information span{
+                                                        color: red;
+                                                       
+                                                    }
+                                                        .t-r-information h1{
+                                                           width: 50%;
+                                                         margin-left: -20px;
+                                                       
+                                                            
+                                                         }
+                                                         .t-r-information ul{
+                                                            margin-left: -20px;
+                                                            width: 80%;
+                                                           
+                                                          }
+                                                        }
+                                                        @media only screen and (max-width: 293px){
+                                                            .ons{
+                                                                display: block;
+                                                            }
+            
+            
+                                                            .t-r-information{
+                                                                width:100%;
+                                                            }
+                                                            .header-t-r{
+                                                                height: 800px;
+                                                            }
+                                                            .t-r-information span{
+                                                                color: red;
+                                                               
+                                                            }
+                                                                .t-r-information h1{
+                                                                   width: 50%;
+                                                                 margin-left: -20px;
+                                                               
+                                                                    
+                                                                 }
+                                                                 .t-r-information ul{
+                                                                    margin-left: -20px;
+                                                                    width: 80%;
+                                                                   
+                                                                  }
+                                                                }
+                                                                @media only screen and (max-width: 245px){
+            
+            
+                                                                   
+                                                                    .header-t-r{
+                                                                        height: 800px;
+                                                                    }
+                                                                    .t-r-information span{
+                                                                        color: red;
+                                                                       
+                                                                    }
+                                                                        .t-r-information h1{
+                                                                           width: 50%;
+                                                                         margin-left: -20px;
+                                                                       
+                                                                            
+                                                                         }
+                                                                         .t-r-information ul{
+                                                                            margin-left: -20px;
+                                                                            width: 80%;
+                                                                           
+                                                                          }
+                                                                        }
+                                                                        
+                                                                
+            
+            
+                                                            
+                                                                  
+                                                          
+                                                  
+                                                          
+                                                  
+                                          
+                  
+                         
+                                            
+                                        
+                                        
+                                
+                          
+                      
+                  
+              
+          
+
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background:#555;
+        width:100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+     margin-right: 50px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+position: relative;
+
+    
+}
+
+
+
+
+
+
+
+
+/* ------------------------------ */
+
+@media only screen and (max-width: 800px){
+  .row{
+      text-align: center;
+
+    }
+    .col-2,.col-3,.col{
+        flex-basis: 100% ;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-basis: 100%;
+        justify-content: space-around;
+    }
+    /* .main-content hr{
+        display: none;
+    }*/
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .aboutus-para br{
+        display: none;
+
+    }
+    .footer br{
+        display: none;
+
+    }
+   .content br{
+       display: none;
+   }
+   .hr{
+       width: 100%;
+       height: 1px;
+       
+       
+   }
+
+ 
+
+
+
+}
+@media only screen and (max-width: 300px){
+    .footer-map{
+    width: 200px;
+    height: 200px;
+
+    }
+}
+
+
+
+
